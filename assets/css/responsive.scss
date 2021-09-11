@@ -1,0 +1,337 @@
+@media (max-width: 575px) { 
+    // Common CSS Class
+    .theme-btn {
+        padding: 10px 30px;
+    }
+    .section-title {
+        text-align: center;
+
+        h2 {
+            font-size:25px;
+        }
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+
+    //Navbar CSS
+    .navbar {
+        .navbar-toggler-icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+    //Banner CSS
+    .banner-section {
+        height: 100%;
+        padding: 100px 0;
+
+        .banner-text {
+            text-align: center;
+            h1 {
+                font-size: 30px;
+            }
+            
+            .email-form {
+                text-align: center;
+                margin: auto;
+
+                .theme-btn {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .banner-img {
+            top: inherit;
+            right: 0;
+            position: relative;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+    //Why Choose CSS
+    .why-choose {
+        padding-bottom: 50px;
+    }
+
+    //Pricing CSS
+    .pricing-box {
+        .price-text {
+            h2 {
+                font-size: 40px;
+            }
+        }
+        .feature-list {
+            ul {
+                li {
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    //Blog CSS
+    .blog-section {
+        .blog-box {
+            .blog-text {
+                a {
+                    font-size: 18px;
+                } 
+            }
+        }
+    }
+
+    // CTA CSS
+    .cta-section {
+        text-align: center;
+
+        h1 {
+            margin-top: 20px;
+            font-size:30px;
+            text-align: center;
+        }
+    }
+
+    //Footer CSS
+    .copyright-area {
+        text-align: center;
+
+        .social-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    //Common CSS 
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+
+    //Banner CSS
+    .banner-section {
+        height: 100%;
+        padding: 100px 0;
+
+        .banner-text {
+            text-align: center;
+            h1 {
+                font-size: 40px;
+            }
+            
+            .email-form {
+                text-align: center;
+                margin: auto;
+
+                .theme-btn {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .banner-img {
+            top: inherit;
+            right: 0;
+            position: relative;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+
+    //Service CSS
+    .service-box {
+        h3 {
+            font-size:20px;
+        }
+    }
+    //Why Choose CSS
+    .why-choose {
+        padding-bottom: 50px;
+    }
+
+    //Pricing CSS
+    .pricing-box {
+        padding: 25px;
+
+        .price-text {
+            h6 {
+                font-size: 15px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+        }
+        .feature-list {
+            ul {
+                li {
+                    padding-bottom: 10px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .theme-btn {        
+            padding: 10px;
+            margin-top: 15px;
+        }
+    }
+
+    //Blog CSS
+    .blog-section {
+        .blog-box {
+            .blog-text {
+                padding: 20px;
+
+                .meta-tag {
+                    margin-bottom: 0;
+
+                    h6 {
+                        font-size: 12px;
+                    }
+                }
+
+                h3 {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    //CTA CSS
+    .cta-section {
+        text-align: center;
+
+        h1 {
+            text-align: center;
+            font-size: 35px;
+            margin-top: 15px;
+        }
+    }
+
+    //Footer CSS 
+    .footer-link {
+        ul {
+            li {
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .copyright-area {
+        p {
+            font-size:15px ;
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .banner-section {
+        height: 100%;
+        padding: 100px 0;
+
+        .banner-text {
+            margin: auto;
+            text-align: center;
+
+            .email-form {
+                margin: 0 auto 50px;
+            }
+        }
+
+        .banner-img {
+            position: relative;
+            top: 0;
+            right: 0;
+
+            img {
+                max-width: 655px;
+            }
+        }
+    }
+
+    //Why choose 
+    .why-choose {
+        padding-bottom: 70px;
+    }
+
+    //Blog CSS
+    .blog-section {
+        .blog-box {
+            .blog-text {
+                .meta-tag {
+                    font-size:14px;
+                }
+            }
+            h3 {
+                a {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    //CTA CSS
+    .cta-section {
+        h1 {
+            font-size:40px;
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+    //Banner CSS
+    .banner-section {
+        .banner-text{
+            max-width: 500px;
+
+            h1 {
+                font-size: 50px;
+                max-width: 450px;
+            }
+        }
+
+        .banner-img {
+            img {
+                max-width: 500px;
+            }
+        }
+    }
+
+    //Service CSS
+    .service-box {
+        padding: 15px;
+    }
+
+    //Why Choose 
+    .why-choose {
+        padding-bottom: 70px;
+    }
+
+    //Pricing CSS 
+    .pricing-box {
+        .price-text {
+            h2 {
+                font-size: 45px;
+            }
+        }
+    }
+}
