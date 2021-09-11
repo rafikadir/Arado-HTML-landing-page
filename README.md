@@ -1,2 +1,2 @@
 # Arado-html-landing-page
-<a href="">Live View</a>
+<a href="https://rafikadir.github.io/arado-html-landing-page/">Live View</a>
